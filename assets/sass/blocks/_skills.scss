@@ -1,0 +1,30 @@
+.skills {
+    min-height: 610px;
+    padding: 91px 0 110px 0;
+    &_progs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 83px;
+        &_ps,&_ai,&_ae,&_figma {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 167px;
+        }
+        &_title {
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: $second-color;
+            font-weight: 700;
+            margin-top: 25px;
+            width: 100%;
+        }
+        &_stars {
+            margin-top: 40px;
+        }
+    }
+}
+div.skills_descr {
+    margin-top: 70px;
+}

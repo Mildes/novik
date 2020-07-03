@@ -1,0 +1,176 @@
+@media (max-width: 1276px) {
+    div.container {
+        width: 945px;
+    }
+    .header {
+        padding-bottom: 70px;
+        min-height: 700px;
+        &_main {
+            padding-top: 30px;
+            &_name a {
+                font-size: 44px;
+                line-height: 48px;
+            }
+            img {
+                padding-top: 20px;
+            }
+        }
+    }
+    .about {
+        min-height: 340px;
+        padding: 60px 0;
+    }
+    .skills {
+        min-height: 500px;
+        padding: 60px 0 70px 0;
+        &_progs {
+            margin-top: 70px;
+        }
+    }
+    div.skills_descr {
+        margin-top: 35px;
+    }
+    .portfolio {
+        min-height: 2000px;
+        padding: 60px 0;
+        &_descr {
+            margin-bottom: 0;
+        }
+    }
+    .contacts {
+        min-height: 480px;
+        padding: 60px 0;
+        &_soc {
+            margin-top: 65px;
+        }
+    }
+}
+@media (max-width: 959px) {
+    div.container {
+        width: 725px;
+    }
+    .header {
+        min-height: 600px;
+    }
+    .skills {
+        &_progs {
+            margin-top: 60px;
+            &_stars {
+                margin-top: 20px;
+                width: 80%;
+            }
+            &_icon {
+                height: 40%;
+            }
+        }
+    }
+    .portfolio {
+        min-height: 1600px;
+    }
+    .contacts {
+        min-height: 440px;
+        &_soc {
+            margin-top: 40px;
+        }
+    }
+}
+@media (max-width: 739px) {
+    div.container {
+        width: 545px;
+    }
+    .header {
+        min-height: 400px;
+        &_menu {
+            display: none;
+            &_close {
+                display: block;
+                position: absolute;
+                right: 30px;
+                border: none;
+                outline: none;
+                background-color: rgba(255, 255, 255, 0);
+
+            }
+            li {
+                margin: 10px 0;
+            }
+        }
+        &_main {
+            padding-top: 20px;
+            align-items: center;
+            &_name a {
+                font-size: 40px;
+                line-height: 44px;
+            }
+            &_lang {
+                display: none;
+            }
+            &_menu {
+                display: block;
+                border: none;
+                outline: none;
+                background-color: rgba(255, 255, 255, 0);
+                img {
+                   margin-bottom: 50%;
+                }
+            }
+            
+        }
+        .open {
+            display: block;
+            position: absolute;
+            background-color: #fff;
+            z-index: 10;
+            width: 100%;
+            text-align: center;
+            left: 0;
+        }
+        hr {
+            display: none;
+        }
+    }
+    .portfolio {
+        min-height: 1300px;
+    }
+}
+@media (max-width: 560px) {
+    div.container {
+        width: 340px;
+    }
+    .header {
+        &_main {
+            &_descr {
+                order: 1;
+            }
+            &_menu {
+                margin-top: -10px;
+            }
+            &_des {
+                display: none;
+            }
+            &_mob {
+                order: 2;
+            }
+        }
+    }
+    .skills {
+        &_progs {
+            flex-wrap: wrap;
+            justify-content: center;
+            &_ps, &_ai, &_ae, &_figma {
+                margin: 10px 0;
+            }
+        }
+    }
+    .portfolio {
+        min-height: 1000px;
+    }
+    .contacts {
+        &_soc {
+            justify-content: space-around;
+            img {
+                margin: 0 20px;
+            }
+        }
+    }
+}

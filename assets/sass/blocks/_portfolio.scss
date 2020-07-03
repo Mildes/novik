@@ -1,0 +1,19 @@
+.portfolio {
+    min-height: 2200px;
+    background-color: #F6F6F6;
+    padding: 112px 0 96px 0;
+    img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    &_descr {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        text-decoration-line: underline;
+        font-weight: 500;
+        margin-top: 45px;
+        margin-bottom: 50px;
+        color: #070707;
+    }
+}

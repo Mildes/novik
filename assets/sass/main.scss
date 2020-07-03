@@ -1,0 +1,35 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'base/variables';
+@import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/contacts';
+@import 'base/media';
+
+* {
+    font-family: 'Gilroy', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: $main-color;
+    font-weight: 700;
+}
+.descr {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: $main-color;
+    font-weight: 500;
+    margin-top: 20px;
+}
